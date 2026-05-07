@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py_plugin_pinger"
+version = "0.0.1"
+description = "Minimal Python squadron plugin (Python sibling of plugin_pinger)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Max Lund" }]
+dependencies = [
+    "squadron-sdk @ git+https://github.com/mlund01/squadron-sdk-py",
+]
+
+[project.scripts]
+py_plugin_pinger = "py_plugin_pinger.main:main"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/py_plugin_pinger"]
