@@ -11,7 +11,7 @@ requires-python = ">=3.10"
 license = "MIT"
 authors = [{ name = "Max Lund" }]
 dependencies = [
-    "squadron-sdk @ git+https://github.com/mlund01/squadron-sdk-py",
+    "squadron-sdk>=0.1.1",
 ]
 
 [project.scripts]
