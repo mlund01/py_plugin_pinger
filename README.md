@@ -2,7 +2,8 @@
 
 Minimal Python [Squadron](https://github.com/mlund01/squadron) plugin —
 the Python sibling of [plugin_pinger](https://github.com/mlund01/plugin_pinger).
-Built with [squadron-sdk-py](https://github.com/mlund01/squadron-sdk-py).
+Built with [squadron-sdk](https://pypi.org/project/squadron-sdk/) (source
+at [squadron-sdk-py](https://github.com/mlund01/squadron-sdk-py)).
 
 Tools:
 
